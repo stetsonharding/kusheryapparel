@@ -21,7 +21,11 @@ function Nav() {
           </Navbar.Brand>
           <Navbar.Brand
             className="nav-brand"
-            style={{ color: "green", fontSize: "22px" }}
+            style={{
+              color: "green",
+              fontSize: "26px",
+              letterSpacing: "1px",
+            }}
           >
             The Kushery Apparel
           </Navbar.Brand>
