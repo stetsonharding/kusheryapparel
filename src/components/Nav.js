@@ -10,7 +10,11 @@ import "../css/Nav.css";
 function Nav() {
   return (
     <>
-      <Navbar variant="dark" style={{ backgroundColor: "#ED820E" }}>
+      <Navbar
+        sticky="top"
+        variant="dark"
+        style={{ backgroundColor: "#ED820E" }}
+      >
         <Container fluid className="m-2">
           <Navbar.Brand>
             <img className="logo" alt="" src={Logo} width="45" height="35" />{" "}
