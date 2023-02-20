@@ -12,9 +12,9 @@ export default function Hero() {
       fluid
       style={{
         backgroundColor: "#ED820E",
-        height: "700px",
+        height: "760px",
       }}
-      className="d-flex justify-content-center align-items-center"
+      className="d-flex justify-content-center align-items-center test"
     >
       <Row style={{ width: "80%" }}>
         <Col
