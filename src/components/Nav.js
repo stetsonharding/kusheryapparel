@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -8,12 +8,22 @@ import Logo from "../assets/Logo.png";
 import "../css/Nav.css";
 
 function Nav() {
+  const [navBar, setNavbar] = useState(false);
+
+  //Function to change navbar background on scollY
+  const changeBackground = () => {
+    if (window.scrollY >= 70) setNavbar(true);
+    if (window.scrollY === 0) setNavbar(false);
+  };
+  window.addEventListener("scroll", changeBackground);
+  // ==
+
   return (
     <>
       <Navbar
         sticky="top"
         variant="dark"
-        style={{ backgroundColor: "#ED820E" }}
+        className={navBar ? "active" : "navbar"}
       >
         <Container fluid className="m-2">
           <Navbar.Brand>

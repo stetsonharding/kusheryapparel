@@ -2,6 +2,14 @@
   display: none;
 }
 
+.navbar {
+  background-color: #ed820e;
+}
+
+.navbar.active {
+  background-color: #252525;
+}
+
 @media (min-width: 576px) {
   .nav-brand {
     letter-spacing: 0.5px;
