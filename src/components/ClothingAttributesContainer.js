@@ -20,16 +20,28 @@ export default function ClothingAttributesContainer() {
       }}
     >
       <Row
-        className="d-flex justify-content-between align-items-center"
+        //className="d-flex justify-content-between align-items-center"
         style={{
           backgroundColor: "#252525",
           height: "550px",
         }}
       >
-        {AttributesData.map((item) => {
+        {AttributesData.map((item, index) => {
           return (
-            <Col key={item.id}>
+            <Col
+              key={item.id}
+              className="d-flex justify-content-center align-items-center"
+            >
               <ClothingAttributes heading={item.heading} img={item.img} />
+
+              <div
+                style={{
+                  color: "white",
+                  height: "5px",
+                  width: "25px",
+                  backgroundColor: "green",
+                }}
+              ></div>
             </Col>
           );
         })}
