@@ -12,7 +12,7 @@ function Nav() {
 
   //Function to change navbar background on scollY
   const changeBackground = () => {
-    if (window.scrollY >= 70) setNavbar(true);
+    if (window.scrollY >= 15) setNavbar(true);
     if (window.scrollY === 0) setNavbar(false);
   };
   window.addEventListener("scroll", changeBackground);
