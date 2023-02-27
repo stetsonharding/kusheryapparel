@@ -1,0 +1,33 @@
+.card-container {
+  width: 19rem;
+  margin: 6px;
+  margin-bottom: 1rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.card-container:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0;
+  height: 4px;
+  background-color: green;
+  transition: width 0.3s ease-in-out;
+}
+.card-container:hover:after {
+  width: 100%;
+}
+
+.product-price {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.product-name {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900 !important;
+  background-color: orange;
+  padding: 8px;
+  letter-spacing: 1px;
+}

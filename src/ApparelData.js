@@ -34,12 +34,12 @@ export const ApparelData = [
     price: 120,
     img: womensT,
   },
-  // {
-  //   id: 5,
-  //   name: "Womens Leggings",
-  //   price: 130,
-  //   img: leggingsFront,
-  // },
+  {
+    id: 5,
+    name: "Womens Leggings",
+    price: 130,
+    img: leggingsFront,
+  },
   {
     id: 6,
     name: "Face Mask",
