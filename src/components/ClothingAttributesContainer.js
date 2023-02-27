@@ -13,7 +13,7 @@ export default function ClothingAttributesContainer() {
       fluid
       style={{
         backgroundColor: "#252525",
-        height: "400px",
+        // height: "400px",
         position: "absolute",
         top: "800px",
         zIndex: -1,

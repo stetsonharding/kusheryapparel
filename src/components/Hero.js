@@ -13,6 +13,7 @@ export default function Hero() {
       style={{
         backgroundColor: "#ED820E",
         height: "760px",
+        position: "relative",
       }}
       className="d-flex justify-content-center align-items-center test"
     >
