@@ -2,7 +2,7 @@ import React from "react";
 
 import "../css/HeroText.css";
 
-function HeroText() {
+function HeroText({ scrollToProducts }) {
   return (
     <div>
       <div>
@@ -11,7 +11,12 @@ function HeroText() {
         <h1 className="hero-text">Cannabis Clothing</h1>
       </div>
       <div className="hero-btn-container">
-        <button className="view-products-btn">View Products</button>
+        <button
+          onClick={() => scrollToProducts.current.scrollIntoView()}
+          className="view-products-btn"
+        >
+          View Products
+        </button>
       </div>
     </div>
   );

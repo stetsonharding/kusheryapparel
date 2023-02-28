@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 //Components
 import HeroText from "./HeroText";
 import HeroImage from "./HeroImage";
-export default function Hero() {
+export default function Hero({ scrollToProducts }) {
   return (
     <Container
       fluid
@@ -23,7 +23,7 @@ export default function Hero() {
           sm={12}
           md={6}
         >
-          <HeroText />
+          <HeroText scrollToProducts={scrollToProducts} />
         </Col>
         <Col
           className="d-flex justify-content-center align-items-center"

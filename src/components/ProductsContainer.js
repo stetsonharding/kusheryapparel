@@ -2,19 +2,19 @@ import React from "react";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+//import Col from "react-bootstrap/Col";
 
 import { ApparelData } from "../ApparelData";
 import Product from "./Product";
 
-export default function ProductsContainer() {
+export default function ProductsContainer({ scrollToProducts }) {
   return (
     <Container
       style={{
-        backgroundColor: "white",
         marginTop: "5rem",
         marginBottom: "5rem",
       }}
+      ref={scrollToProducts}
     >
       <div>
         <h2
