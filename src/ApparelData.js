@@ -8,18 +8,19 @@ import mensT from "./assets/apparel_Photos/mensT-shirt_.png";
 import womensT from "./assets/apparel_Photos/womensT-shirt_.png";
 //import zipUpBack from "./assets/apparel_Photos/zipUpBack_.png";
 import zipUpFront from "./assets/apparel_Photos/zipUpFront_.png";
+import sweatshirt from "./assets/apparel_Photos/sweatshirt_.png";
 
 export const ApparelData = [
   {
     id: 1,
     name: "Jersey",
-    price: "200",
+    price: "190",
     img: jerseyFront,
   },
   {
     id: 2,
     name: "Mens T-shirt",
-    price: 120,
+    price: 110,
     img: mensT,
   },
   {
@@ -31,7 +32,7 @@ export const ApparelData = [
   {
     id: 4,
     name: "Womens T-shift",
-    price: 120,
+    price: 110,
     img: womensT,
   },
   {
@@ -43,21 +44,21 @@ export const ApparelData = [
   {
     id: 6,
     name: "Face Mask",
-    price: 90,
+    price: 70,
     img: faceMask,
   },
   {
     id: 7,
     name: "Ball Cap",
-    price: 100,
+    price: 90,
     img: ballCap,
   },
-  // {
-  //   id: 8,
-  //   name: "",
-  //   price: "",
-  //   img: "",
-  // },
+  {
+    id: 8,
+    name: "Sweatshirt m/f",
+    price: "220",
+    img: sweatshirt,
+  },
   // {
   //   id: 9,
   //   name: "",
