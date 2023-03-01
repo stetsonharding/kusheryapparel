@@ -15,7 +15,7 @@ export default function Hero({ scrollToProducts }) {
         height: "760px",
         position: "relative",
       }}
-      className="d-flex justify-content-center align-items-center test"
+      className="d-flex justify-content-center align-items-center wavy-bottom"
     >
       <Row style={{ width: "80%" }}>
         <Col

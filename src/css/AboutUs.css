@@ -1,0 +1,45 @@
+.about-container {
+  min-height: 600px;
+  background-color: #ed820e;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  width: 48%;
+  text-align: center;
+}
+.about h1 {
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 5px rgba(81, 67, 21, 0.8);
+  font-weight: bold;
+}
+.about p {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+
+  padding: 20px;
+  margin: 20px;
+  font-style: italic;
+  color: #191970;
+  line-height: 28px;
+}
+.wavy-top {
+  --mask: radial-gradient(
+        67.08px at 50% calc(100% - 50px),
+        #000 99%,
+        #0000 101%
+      )
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60px), #0000 99%, #000 101%) 50%
+      calc(100% - 30px) / 120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
