@@ -5,6 +5,7 @@ import "../css/AboutUs.css";
 export default function AboutUs() {
   return (
     <div className="about-container wavy-top">
+      <div className="half-circle"></div>
       <div className="about">
         <h1>WHO WE ARE</h1>
         <p className="lead">
