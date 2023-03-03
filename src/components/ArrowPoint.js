@@ -1,30 +1,28 @@
 import React from "react";
 
 import { ArcherContainer, ArcherElement } from "react-archer";
+import { Container } from "react-bootstrap";
 
 export default function ArrowPoint() {
-  const boxStyle = {
-    // display: "flex",
-    // flexDirection: "column",
-  };
   const rowStyle = {
     margin: "20px 0",
     display: "flex",
     justifyContent: "space-between",
+    alignitem: "center",
   };
 
   const processHeading = {
     padding: "0",
     margin: "0",
     color: "white",
-    letterSpacing: "1px",
+    letterSpacing: "2px",
     fontStyle: "italic",
     fontWeight: "bold",
   };
 
   return (
-    <div style={{ margin: "50px" }}>
-      <ArcherContainer strokeColor="red">
+    <Container fluid style={{ marginTop: "20px", padding: "10px" }}>
+      <ArcherContainer>
         <div style={rowStyle}>
           <ArcherElement
             id="element2"
@@ -37,9 +35,9 @@ export default function ArrowPoint() {
               },
             ]}
           >
-            <div style={boxStyle}>
+            <div>
               <img src="https://img.icons8.com/nolan/64/shirt.png" alt="" />
-              <p style={processHeading}>Find Product</p>
+              <p style={processHeading}>Find</p>
             </div>
           </ArcherElement>
           <ArcherElement
@@ -53,7 +51,7 @@ export default function ArrowPoint() {
               },
             ]}
           >
-            <div style={boxStyle}>
+            <div>
               <img
                 src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/pickup-point.png"
                 alt=""
@@ -63,7 +61,7 @@ export default function ArrowPoint() {
           </ArcherElement>
 
           <ArcherElement id="element4">
-            <div style={boxStyle}>
+            <div>
               <img
                 src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/take-it-easy.png"
                 alt=""
@@ -73,6 +71,6 @@ export default function ArrowPoint() {
           </ArcherElement>
         </div>
       </ArcherContainer>
-    </div>
+    </Container>
   );
 }
