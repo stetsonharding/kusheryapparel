@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import ClothingAttributesContainer from "./components/ClothingAttributesContainer";
 import ProductsContainer from "./components/ProductsContainer";
 import AboutUs from "./components/AboutUs";
+import FaqContainer from "./components/FaqContainer";
 
 function App() {
   const scrollToProducts = useRef();
@@ -16,6 +17,7 @@ function App() {
       <div style={{ width: "100%", height: "499px" }}></div>
       <AboutUs />
       <ProductsContainer scrollToProducts={scrollToProducts} />
+      <FaqContainer />
     </div>
   );
 }
