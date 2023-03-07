@@ -10,7 +10,7 @@ export default function FaqAccordion(props, index) {
       alwaysOpen
     >
       <Accordion.Item eventKey={index}>
-        <Accordion.Header>{props.question}</Accordion.Header>
+        <Accordion.Header className="m-1">{props.question}</Accordion.Header>
         <Accordion.Body>{props.answer}</Accordion.Body>
       </Accordion.Item>
     </Accordion>
