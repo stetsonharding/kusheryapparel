@@ -13,11 +13,12 @@ export default function FaqContainer() {
       style={{
         backgroundColor: "#252525",
         height: "auto",
-        minHeight: "500px",
+        minHeight: "560px",
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
+        positon: "relative",
       }}
     >
       <h1

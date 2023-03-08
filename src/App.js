@@ -6,6 +6,7 @@ import ClothingAttributesContainer from "./components/ClothingAttributesContaine
 import ProductsContainer from "./components/ProductsContainer";
 import AboutUs from "./components/AboutUs";
 import FaqContainer from "./components/FaqContainer";
+import Footer from "./components/Footer";
 
 function App() {
   const scrollToProducts = useRef();
@@ -18,6 +19,7 @@ function App() {
       <AboutUs />
       <ProductsContainer scrollToProducts={scrollToProducts} />
       <FaqContainer />
+      <Footer />
     </div>
   );
 }
