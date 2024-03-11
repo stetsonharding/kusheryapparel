@@ -3,7 +3,7 @@ export const FaqsData = [
     id: 1,
     question: "I found clothing that I want, how do I purchase it?",
     answer:
-      "If you selected a product you want, come into any of our 6 locations and we will find your item for you!",
+      "Our cannabis clothing isn't just apparel; it's a symbol of style and sophistication. To maintain the exclusivity of our brand, we require qualification for purchase.",
   },
   {
     id: 2,
@@ -14,13 +14,13 @@ export const FaqsData = [
     id: 3,
     question: "What sizes are available for your clothing?",
     answer:
-      "The majority of our clothing is available in sizes XS-XXXL. Please call one of our stores to ensure that we have your specified size on a specific product.",
+      "The majority of our clothing is available in sizes XS-XXXL.",
   },
   {
     id: 4,
     question: "Can I have my product shipped to me?",
     answer:
-      "As of now, products are only available for pickup exclusively at any of our locations.",
+      "As of now, products are only available for pickup exclusively at The Kushery locations.",
   },
   {
     id: 5,
