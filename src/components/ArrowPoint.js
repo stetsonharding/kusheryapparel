@@ -37,7 +37,7 @@ export default function ArrowPoint() {
           >
             <div>
               <img src="https://img.icons8.com/nolan/64/shirt.png" alt="" />
-              <p style={processHeading}>Find</p>
+              <p style={processHeading}>Qualify</p>
             </div>
           </ArcherElement>
           <ArcherElement
@@ -56,7 +56,7 @@ export default function ArrowPoint() {
                 src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/pickup-point.png"
                 alt=""
               />
-              <p style={processHeading}>Pick up</p>
+              <p style={processHeading}>Find Item</p>
             </div>
           </ArcherElement>
 
@@ -66,7 +66,7 @@ export default function ArrowPoint() {
                 src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/take-it-easy.png"
                 alt=""
               />
-              <p style={processHeading}>Enjoy</p>
+              <p style={processHeading}>Pick-up</p>
             </div>
           </ArcherElement>
         </div>

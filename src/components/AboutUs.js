@@ -18,17 +18,8 @@ export default function AboutUs() {
               <h1>WHO WE ARE</h1>
             </Col>
             <p className="lead">
-              The Kushery Apparel is a cannabis clothing brand that celebrates
-              the culture and community surrounding this incredible plant. Our
-              high-quality apparel is designed to reflect the passion and pride
-              that cannabis enthusiasts feel, while also offering comfort and
-              style. Whether you're a seasoned smoker or simply appreciate the
-              aesthetic of cannabis culture, The Kushery Apparel has something
-              for you. We're committed to promoting inclusivity and acceptance
-              within the cannabis community, and we believe that our clothing
-              can help to break down stereotypes and promote positive change.
-              Join us in celebrating the amazing world of cannabis with The
-              Kushery Apparel.
+             
+The Kushery, where style meets cannabis culture. Our clothing isn't just apparel; it's a statement of sophistication and individuality. To ensure our brand remains exclusive, qualification is required for purchase. To begin the qualification process, please email us at {""} <span style={{fontWeight: 'bold'}}>thekusheryapparel@mail.com</span>. Join our community of individuals who appreciate the fusion of fashion and cannabis lifestyle.
             </p>
             <ArrowPoint />
           </Col>

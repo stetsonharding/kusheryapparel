@@ -14,49 +14,42 @@ export const ApparelData = [
   {
     id: 1,
     name: "Jersey",
-    price: "190",
+   
     img: jerseyFront,
   },
   {
     id: 2,
     name: "Mens T-shirt",
-    price: 110,
     img: mensT,
   },
   {
     id: 3,
     name: "Zip-Up Jacket",
-    price: 150,
     img: zipUpFront,
   },
   {
     id: 4,
-    name: "Womens T-shift",
-    price: 110,
+    name: "Women's T-shirt",
     img: womensT,
   },
   {
     id: 5,
-    name: "Womens Leggings",
-    price: 130,
+    name: "Women's Leggings",
     img: leggingsFront,
   },
   {
     id: 6,
     name: "Face Mask",
-    price: 70,
     img: faceMask,
   },
   {
     id: 7,
     name: "Ball Cap",
-    price: 90,
     img: ballCap,
   },
   {
     id: 8,
-    name: "Sweatshirt m/f",
-    price: "220",
+    name: "Sweatshirt m/f", 
     img: sweatshirt,
   },
   // {

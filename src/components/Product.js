@@ -19,7 +19,7 @@ export default function Product({ productItem }) {
       />
       <Card.Body style={{ padding: "3px" }}>
         <Card.Text className="d-flex justify-content-center align-items-center product-price">
-          ${productItem.price}
+          {productItem.price}
         </Card.Text>
         <Card.Title className="d-flex justify-content-center align-items-center product-name">
           {productItem.name}
