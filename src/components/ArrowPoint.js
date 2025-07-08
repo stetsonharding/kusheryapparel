@@ -66,7 +66,7 @@ export default function ArrowPoint() {
                 src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/take-it-easy.png"
                 alt=""
               />
-              <p style={processHeading}>Pick-up</p>
+              <p style={processHeading}>Enjoy</p>
             </div>
           </ArcherElement>
         </div>

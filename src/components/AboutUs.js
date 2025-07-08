@@ -19,7 +19,9 @@ export default function AboutUs() {
             </Col>
             <p className="lead">
              
-The Kushery, where style meets cannabis culture. Our clothing isn't just apparel; it's a statement of sophistication and individuality. To ensure our brand remains exclusive, qualification is required for purchase. To begin the qualification process, please email us at {""} <span style={{fontWeight: 'bold'}}>thekusheryapparel@mail.com</span>. Join our community of individuals who appreciate the fusion of fashion and cannabis lifestyle.
+The Kushery — Where Style Meets Cannabis Culture Our clothing isn't just apparel;
+Please note: All apparel is for viewing purposes only. It is illegal to make in-store purchases for clothing. To place an order, you must qualify first. Email thekushery502@mail.com — we’ll gladly arrange a pickup or delivery with you.
+Thank you for your understanding and continued support!
             </p>
             <ArrowPoint />
           </Col>
