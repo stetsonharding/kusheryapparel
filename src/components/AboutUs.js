@@ -19,7 +19,7 @@ export default function AboutUs() {
             </Col>
             <p className="lead">
              
-The Kushery — Where Style Meets Cannabis Culture Our clothing isn't just apparel;
+The Kushery — Where Style Meets Cannabis Culture;
 Please note: All apparel is for viewing purposes only. It is illegal to make in-store purchases for clothing. To place an order, you must qualify first. Email thekushery502@mail.com — we’ll gladly arrange a pickup or delivery with you.
 Thank you for your understanding and continued support!
             </p>
