@@ -20,7 +20,7 @@ export const FaqsData = [
     id: 4,
     question: "Can I have my product shipped to me?",
     answer:
-      "As of now, products are only available for pickup exclusively at The Kushery locations.",
+      "If you qualify, we may be able to ship your items directly to you.",
   },
   {
     id: 5,
